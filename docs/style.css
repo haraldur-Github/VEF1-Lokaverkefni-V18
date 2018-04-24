@@ -1,0 +1,45 @@
+body{
+	background: black;
+	color: white;
+	max-width: 50em;
+	border: 1px solid red;
+	margin: 1em auto;
+	padding: 1em;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+h1 {
+	text-align: center;
+	color: blue;
+}
+h2 {
+	color: green;
+}
+p {
+	line-height: 1.5;
+}
+ul {
+	color: green;
+}
+a:link {
+	color: yellow;
+}
+a:visited {
+	color: white;
+}
+a:hover,
+a:active {
+	color: red;
+}
+strong {
+	color: red;
+}
+em {
+	color: blue;
+}
+div.ljod {
+	margin-left: 2em;
+	font-style: italic;
+}
+div.lorem_ipsum {
+	text-align: center;
+}
