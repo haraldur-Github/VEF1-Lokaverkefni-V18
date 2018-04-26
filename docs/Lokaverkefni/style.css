@@ -1,0 +1,119 @@
+body
+{
+	color: white;
+	margin: auto;
+	padding: 1em;
+}
+body p
+{
+	line-height: 1.5em;
+}
+footer p
+{
+	font-family: italic;
+	text-align: center;
+	color: orange;
+
+}
+h2
+{
+	font-size: 2.5em;
+	color: orange;
+}
+h3
+{
+	font-size: 2em;
+	color: yellow;
+}
+p
+{
+	font-family: Georgia;
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+.Logo
+{
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btop
+{
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+
+	display: block;
+	border-radius: 50%;
+	padding: 0 6px;
+	font-size: 2.5em;
+	color: white;
+	background: #ff9900;
+	
+}
+.btop:hover,
+.btop:focus
+{
+	background: white;
+	color: #ff9900;
+}
+.container
+{
+	max-width: 60em;
+	margin: auto;
+}
+.Group1
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.Group1 p
+{
+	font-style: italic;
+}
+.Rift1 img
+{
+	height: 450px;
+	border: 2px solid black;
+}
+.Rift2 img
+{
+	height: 450px;
+	border: 2px solid black;
+}
+.Champions 
+{
+	border: 2px solid black;
+	width: 60em;
+}
+.Rift2
+{
+	margin-left: 2em;
+}
+.container2
+{
+	max-width: 60em;
+	margin: 0 auto;
+}
+.linkar
+{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+.linkar a
+{
+	display: block;
+	border: 2px solid white;
+	border-width: 0 1px 1 0;
+	color: orange;
+	text-decoration: none;
+	padding: 0 1em;
+	margin-top: 2em;
+	margin-bottom: 4em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
