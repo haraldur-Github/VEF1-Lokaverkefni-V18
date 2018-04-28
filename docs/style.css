@@ -1,45 +1,125 @@
-body{
-	background: black;
+body
+{
 	color: white;
-	max-width: 50em;
-	border: 1px solid red;
-	margin: 1em auto;
+	max-width: 60em;
+	margin: auto;
 	padding: 1em;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-h1 {
+body p
+{
+	line-height: 1.5em;
+}
+footer p
+{
+	font-family: italic;
 	text-align: center;
-	color: blue;
+	color: orange;
+
 }
-h2 {
-	color: green;
+h2
+{
+	font-size: 2.5em;
+	color: orange;
+	font-family: Verdana;
 }
-p {
-	line-height: 1.5;
-}
-ul {
-	color: green;
-}
-a:link {
+h3
+{
+	font-size: 2em;
 	color: yellow;
 }
-a:visited {
+p
+{
+	font-family: Georgia;
+	font-size: 1.6em;
+	line-height: 1.3em;
+}
+.Logo
+{
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btop
+{
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+
+	display: block;
+	border-radius: 50%;
+	padding: 0 6px;
+	font-size: 2.5em;
 	color: white;
+	background: #ff9900;
+	
 }
-a:hover,
-a:active {
-	color: red;
+.btop:hover,
+.btop:focus
+{
+	background: white;
+	color: #ff9900;
 }
-strong {
-	color: red;
+.container
+{
+	max-width: 60em;
+	margin: auto;
 }
-em {
-	color: blue;
+.Group1
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
 }
-div.ljod {
-	margin-left: 2em;
+.Group1 p
+{
 	font-style: italic;
 }
-div.lorem_ipsum {
-	text-align: center;
+.Rift1 img
+{
+	height: 450px;
+	border: 2px solid black;
+}
+.Rift2 img
+{
+	height: 450px;
+	border: 2px solid black;
+}
+.Champions 
+{
+	border: 2px solid black;
+	width: 60em;
+}
+.Rift2
+{
+	margin-left: 2em;
+}
+.container2
+{
+	max-width: 60em;
+	margin: 0 auto;
+}
+.linkar
+{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+.linkar a
+{
+	display: block;
+	border: 2px solid white;
+	border-width: 0 1px 1 0;
+	color: orange;
+	text-decoration: none;
+	padding: 0 1em;
+	margin-top: 2em;
+	margin-bottom: 4em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+.linkar a:hover
+{
+	color: white;
 }
